@@ -1,0 +1,30 @@
+<script>
+    'use strict';
+    var product ={
+        name : 'Levies Tshirt',
+        price : 1500,
+        discount : 15,
+        path :'https://levi.in/cdn/shop/files/A92010001_01_Style_Shot_593c823e-2d6c-4baf-8183-5caf3ad965b4.jpg?v=1703758438',
+        size:['S','M','L']
+
+    }
+    console.log(product);
+    document.write(`
+        <div>
+            <img src ="${product.path}"/>
+            <h2>${product.price}</h2>
+            <p>${product.name}</p>
+            <p>${product.size}</p>
+            <button> Add To Chart </button>
+            </div>
+    `);
+
+
+</script>
+<style>
+
+    div{
+        border: solid;width: 300px;text-align: center;margin: auto;
+    }
+    div img{width: 100%;}
+</style>

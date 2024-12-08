@@ -1,0 +1,21 @@
+<script>
+
+    let Username = 'Ruturaj';
+    var userAge = 24;
+    console.log(Username);
+    console.log(userAge);
+    
+   
+    {
+        console.log("IN BLOCK SCOPE");
+        console.log(userAge);
+        console.log(Username);
+        console.log(userID);
+        let userRole = 'Admin';
+        var userPlace = 'Mumbai';// output will be show for this line
+        let userID =2323;
+    }
+    console.log(userPlace); // not access bcoz its outof the block so cant access in console 
+    console.log(userID);
+    
+</script>

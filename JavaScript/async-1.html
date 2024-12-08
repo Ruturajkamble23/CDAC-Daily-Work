@@ -1,0 +1,17 @@
+<script>
+    function myfunction(){
+        return [200,300,500];
+    }
+    var result = myfunction();
+    console.log(result);
+
+    async function myfunction(){
+        return [200,300,500];
+    }
+    var result = myfunction();
+    console.log(result);
+
+    result.then(val=>{
+        console.log(val);
+    })
+</script>

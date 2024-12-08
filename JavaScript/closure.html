@@ -1,0 +1,13 @@
+<script>
+    function f1(p1){
+        var data =900;
+        function f2(p2){
+            function f3(p3){
+                console.log(p1+p2+p3+data);
+            }
+            f3(300)
+        }
+        f2(200);
+    }
+    f1(100);
+</script>

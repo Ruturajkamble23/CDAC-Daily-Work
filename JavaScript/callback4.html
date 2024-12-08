@@ -1,0 +1,35 @@
+<script>
+    'use strict';
+    //use case of rollback
+    var products =[
+    {
+        name:'Shirt',
+        price:'1000',
+    },
+    {
+        name:'Jeans',
+        price:'2500',
+    },
+    {
+        name:'Tshirt',
+        price:'899',
+    },
+    {
+        name:'Jockey',
+        price:'799',
+    },
+    {
+        name:'Belt',
+        price:'4999',
+    }
+    
+
+    ];
+    console.log(products);
+    products.filter(function(value){
+        console.log(value,value.price);
+    });
+
+    var answer = products.filter((value)=>value.price >= 500 &&value.price<=1500)
+    console.log(answer);
+</script>
