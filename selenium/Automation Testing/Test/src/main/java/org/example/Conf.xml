@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+    <test name="Test">
+        <classes>
+<!--            <class name = "org.example.NewTest3">-->
+            <class name = "org.example.Tests">
+                <parameter name = "user_name" value = "problem_user"/>
+                <parameter name = "password" value = "secret_sauce"/>
+
+                <parameter name = "Fname" value = "Ruturaj"/>
+                <parameter name = "Lname" value = "Ruturaj"/>
+                <parameter name = "Zip" value = "400050"/>
+            </class>
+
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
