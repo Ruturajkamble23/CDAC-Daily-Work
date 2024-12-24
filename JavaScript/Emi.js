@@ -70,21 +70,3 @@ document.getElementById('btn').onclick = ()=>{
         document.getElementById('r5').innerHTML = `&#8377; ${offer}`;
     }
 }
-/*
-    Bootstrap Grid
-    Usage of ID in Javascript
-    DOM Event Handling:
-        document.getElementById('btn').onclick
-    DOM Methods:
-        document.getElementById('x1')
-    DOM Propeties:
-        innerHTML
-        innerText
-        value
-    Control Structure - If Else
-    Type Casting : Number() , parseInt() , parseFloat()
-    Arithmetic Operators: +, -, *, /, %
-    Exponential Operator: **
-    Math Object
-
-*/
